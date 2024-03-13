@@ -1,7 +1,8 @@
 import express from 'express'
+import morgan from 'morgan'
 import paymentRoutes from './routes/payment.routers.js'
 import {PORT} from './config.js'
-import morgan from 'morgan'
+
 
 const app = express();
 
